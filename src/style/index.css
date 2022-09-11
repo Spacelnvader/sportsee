@@ -1,0 +1,5 @@
+@import "./settings.css";
+@import "./components/logo.css";
+@import "./components/header.css";
+@import "./components/userCard.css";
+@import "./pages/home.css";
