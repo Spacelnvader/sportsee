@@ -18,7 +18,6 @@ const Home = () => {
                 <div className='userCards'>
                     <UserCard  avatar={Homme} name='Karl Dovineau' id="12"/>
                     <UserCard  avatar={Femme} name='Cecilia Ratorez' id="18"/>
-                    
                 </div>
             </div>
             
