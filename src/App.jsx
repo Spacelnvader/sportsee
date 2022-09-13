@@ -1,8 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
-//import Error from './pages/Error'
-//import Dashboard from './pages/Dashboard'
 import Home from './pages/Home'
 
 /**
