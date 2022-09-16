@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-
+import VerticalNavigation from '../components/VerticalNavigation';
 
 
 /**
@@ -11,7 +11,7 @@ import { NavLink } from 'react-router-dom'
 const Error = () => {
     return (
         <>
-        
+        <VerticalNavigation/>
         <div className='error'>
             <h1>404</h1>
             <p>Oups! La page que vous demandez n'existe pas.</p>
