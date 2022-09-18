@@ -28,7 +28,7 @@ const VerticalNavigation = () => {
                     <img src={haltere} alt="haltere" />
                 </NavLink>
             </ul>
-            <div className="copyright">Copyright, SportSee 2020</div>
+            <div className="copyright">Copyright, SportSee 2022</div>
         </div>
     );
 };
