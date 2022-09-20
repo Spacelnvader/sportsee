@@ -1,3 +1,5 @@
+
+
 /**
  * @class
  * @classdesc Main user datas formater
@@ -6,9 +8,10 @@ export default class MainDataFormater {
     /**
      * The function takes in an object, and then assigns the values of the object to the properties of
      * the class.
-     * @param {Object} datas - main user datas
+     * @param {Object} data - main user datas
      */
     constructor(data) {
+        //console.log(data)
         this.id = data.id
         this.userFirstName = data.userInfos.firstName
         this.keyData = data.keyData

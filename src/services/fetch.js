@@ -15,10 +15,13 @@ export const GetMainData = async (id) => {
         }
         const response = await fetch(url)
         const mainData = await response.json()
-        console.log(mainData.data)
+        console.log(mainData)
         return mainData.data
     } catch (error) {
         console.log('=====error=====', error)
+        // const response = await fetch(url)
+        // const mainData = await response.json()
+        // console.log(mainData)
     }
 }
 /**
