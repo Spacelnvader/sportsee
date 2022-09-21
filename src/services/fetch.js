@@ -7,7 +7,7 @@
 const mockedDatas = false
 
 export const GetMainData = async (id) => {
-    let url = `http://localhost:3000/user/${id}`
+    let url = `http://localhost:3001/user/${id}`
 
     try {
         if (mockedDatas) {
@@ -15,13 +15,10 @@ export const GetMainData = async (id) => {
         }
         const response = await fetch(url)
         const mainData = await response.json()
-        console.log(mainData)
         return mainData.data
     } catch (error) {
         console.log('=====error=====', error)
-        // const response = await fetch(url)
-        // const mainData = await response.json()
-        // console.log(mainData)
+        
     }
 }
 /**
@@ -30,7 +27,7 @@ export const GetMainData = async (id) => {
  * @returns {Promise}
  */
 export const GetUserActivities = async (id) => {
-    let url = `http://localhost:3000/user/${id}/activity`
+    let url = `http://localhost:3001/user/${id}/activity`
 
     try {
         if (mockedDatas) {
@@ -51,7 +48,7 @@ export const GetUserActivities = async (id) => {
  * @returns {Promise}
  */
 export const GetUserAverageSessions = async (id) => {
-    let url = `http://localhost:3000/user/${id}/average-sessions`
+    let url = `http://localhost:3001/user/${id}/average-sessions`
 
     try {
         if (mockedDatas) {
@@ -72,7 +69,7 @@ export const GetUserAverageSessions = async (id) => {
  * @returns {Promise}
  */
 export const GetUserPerformance = async (id) => {
-    let url = `http://localhost:3000/user/${id}/performance`
+    let url = `http://localhost:3001/user/${id}/performance`
 
     try {
         if (mockedDatas) {
