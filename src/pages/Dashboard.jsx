@@ -32,6 +32,7 @@ function Dashboard() {
     const [datas, setDatas] = useState({})
     const [isLoading, setIsLoading] = useState(true)
 
+     //useEffect va actualiser les données à chaque changement de l'ID sur la route, ou chaque nouvelle naviguation
     useEffect(() => {
         (async () => {
             try {
@@ -42,9 +43,6 @@ function Dashboard() {
 
                 setDatas({ userDatas, userActivity, userPerformance, userSessions })
                 setIsLoading(false)
-                // if((!userDatas.id)===id){return navigate ("/Error")}
-                // console.log(userDatas.id)
-                // console.log(id)
 
             } catch (error) {
                 console.log('=====error=====', error)
