@@ -19,7 +19,7 @@ export async function userHeaderData(id) {
 
     mainDatas = await GetMainData(id)
     const userData = new MainDataFormater(mainDatas)
-    //console.log(userData)
+    console.log(userData)
     return userData
 }
 
