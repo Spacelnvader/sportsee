@@ -9,7 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 /**
  * @file root folder of the application
  * @author Nicolas Chaussadas
- * @see <a href=""> repo Git </a>
+ * @see <a href=""> https://github.com/Spacelnvader/sportsee </a>
  */
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
