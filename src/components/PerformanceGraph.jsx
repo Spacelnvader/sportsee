@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
  * @returns {JSX.Element} PerformanceGraph component
  */
 const PerformanceGraph = ({performance}) => {
-    //console.log(performance)
+    
     return (
         <div className="squareGraph performGraph">
             <ResponsiveContainer   width="100%" aspect={1} >

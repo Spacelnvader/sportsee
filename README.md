@@ -32,10 +32,10 @@ If you are working with several versions of NodeJS, we recommend you install [nv
 - Backend :
   open a new terminal and run `cd BackEnd` command,
   then run `npm start`command
-  the backend will open http://localhost:3000
+  the backend will open http://localhost:3001
 
 - FrontEnd:
-  open a new terminal, then run the `npm start` command will allow you to run the application on http://localhost:3001
+  open a new terminal, then run the `npm start` command will allow you to run the application on http://localhost:3000
 
 ## Author
 
